@@ -23,10 +23,8 @@ f (1 + n) = n * f n
 > Now, when you are doing inductive proofs, theorems are your supply while goals are your demand. You can make a theorem T 0 out of the base case and then improve to however large T n you like using inductive case: your supply flows from 0 to infinity. Now if you have a goal G n, you can make a smaller goals G (n-k) out of it using the inductive step until you reach zero. This way your demand goes from n to 0.
 
 > As you can see, the direction of supply is "to infinity" in both cases and the direction of demand is "to zero" in both cases.
-
 > You can also reverse the apparent order in the descriptions of induction and recursion without changing their meaning:
-
 > Induction is when to prove that P n holds you need to first reduce your goal to P 0 by repeatedly applying the inductive case and then prove the resulting goal using the base case.
-
 > Similarly, recursion is when you first define a base case and then define the further values in terms of the previous ones. See, the directions are easily swapped!
+
 Source: https://stackoverflow.com/questions/10959874/what-is-the-relationship-between-recursion-and-proof-by-induction
