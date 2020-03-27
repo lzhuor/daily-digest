@@ -1,2 +1,3 @@
 # daily-digest
-## Recursion and proof of Induction
+### March 2020
+> What is the relationship between recursion and proof by induction?
